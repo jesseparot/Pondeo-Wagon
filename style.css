@@ -1,4 +1,8 @@
 /* style.css */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     background: rgb(240, 240, 240);
