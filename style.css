@@ -1,0 +1,88 @@
+/* style.css */
+body {
+    margin: 0px;
+    background: rgb(240, 240, 240);
+    color: rgb(20, 20, 20);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+h1, h2, h3 {
+    font-family: 'MuseoModerno', cursive;
+}
+h1 {
+    font-size: 40px;
+    color: #FF1085;
+}
+h2 {
+    font-size: 24px;
+    color: #FF1085;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: black
+}
+
+.banner{
+    text-align: center;
+    color: white;
+    padding: 150px 0px;
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/WorldCupFinal.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.banner h1 {
+    font-size: 80px;
+}
+.banner p {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.btn-pink {
+    color: white;
+    background: #FF1085;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11);
+    border-radius: 4px;
+    padding: 15px 20px;
+}
+.btn-pink:hover {
+    background: #5057FF;
+    color: white;
+    text-decoration: none;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #616161;
+  padding: 24px;
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
