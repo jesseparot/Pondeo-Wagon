@@ -90,3 +90,7 @@ a:hover {
   display: inline;
   padding: 0px 8px;
 }
+
+.row{
+    margin: 60px;
+}
